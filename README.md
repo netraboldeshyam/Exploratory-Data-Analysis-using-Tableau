@@ -59,3 +59,46 @@ To fix this error the sign is changed to negative for the latitude coordinates o
 ![](Images/Latitude%20Error.png)
 ![](Images/Latitude%20Corrected.png)
 
+## 4. DATA EXPLORATION
+
+The data is explored and visualized using Tableau Public, and then analyze the dataset thus formatted using the methods and techniques explained in section 2 and 3 of this report. The data thus explored will answer the two questions in the following sections. 
+
+### 4.1 Exploring formatted data using Tableau Public:
+
+The formatted data is imported into Tableau Public as an excel file type. The dataset includes both the categorical data (Types of Coral, Site Name) and numeric data (%of bleaching, Latitude, Longitude). To find the answer to the questions we need to analyze the relationship between categorical variables (Type of Coral) as well as the continuous variables(% of bleaching). The row contains ‘% of bleach’ and ‘Type of Coral’ variables that varies across the year variable in column as show in the figure4.1(a). This view is further nested to display variation in bleaching for each coral type across all the years (2010–2017). Each coral type is identified by a specific color as represented in the legend shown in the footer of the graph. The average of the ‘% of bleaching’ is computed as the sample dataset is not large and symmetrically distributed and gives a better measure of central tendency than median and that the outliers have been fixed.
+
+The graph is an area chart representation of the bleaching of corals for a period of 2010 to 2017 and shows the effect of bleaching on each coral type for each year. 
+
+![](Images/Analysis%20Tableau.png)
+
+The second graph as shown in figure4.1(b) is a symbol map which shows the % of bleaching as a function of site. The legend below the graph explains the color schema where the depth of the color increases with increase in % bleaching with respect to each site respectively. The lowest value of % of bleaching as indicated on legend is 27.64% and the highest value is 45.34%.
+
+#### Q1) In which years and for which kinds of coral bleaching is the worst?
+
+The figure 4.1(a) shows the % of bleaching for each year and each coral type. For instance, for the year 2010 shows blue corals had the highest effect of bleaching at 34.91% followed by Sea fans at 34.50% indicated by the colors corresponding to legend. The year 2011 had severe effects of bleaching on sea fans at 35.73%. Similarly, we can make observations of bleaching for each year. 
+
+#### _Answer: “On the whole we can conclude that 2010 and 2012 had worst bleaching effects on blue corals. 2011, 2013 and 2017 was worst for Sea fans and 2016 was worst for Soft corals”.
+
+#### Q2) How the location of the site affects bleaching on the different kinds of coral?
+
+The depth of the color in the legend below symbol map (figure 4.1b) indicates how prevalent the bleaching is with respect to individual sites, depth of color increases with increase in % of bleaching. 
+
+#### _Answer: “The corals on far north sites i.e. Site01, Site05 and Site07 see worst bleaching compared to the central Sites – Site06, Site08 and far south sites – Site02 and Site04.Also, it can be observed that the coral reef nearer to the coast (Sites 01, 05, 07, 08 and 06) suffer worst bleaching compared to the ones away from the coastline – Site03 and Site04”. 
+
+### References: 
+
+1.	Claudino-Sales, V. (2019). Great Barrier Reef, Australia. In Coastal World Heritage Sites (pp. 289-295): Springer.
+1. 	Wickham, H. (2014). Tidy data. Journal of Statistical Software, 59(10), 1-23. 
+
+
+
+
+
+
+
+
+
+
+
+
+
